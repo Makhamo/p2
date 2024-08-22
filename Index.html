@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>   
+<body>
+    
+    <section class="header">
+        <nav>
+           <a href="Index.html" ><img src="images/logo.jpg"></a> 
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACTS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Hello World</h1>
+            <p>"This website showcases my current skills and progress in web development.<br>I use Javascript and i'm eager to learn deeper"</p>
+            <a class="findM" href="">Find more information</a>
+        </div>
+        
+    </section>
+<!--------------------------COURSE-------------------------------->
+    
+        <section class="course">
+    
+            <h1>Course they offered</h1>
+            <p>They offer Node.js, c# and website. You will find more of things you don't know</p>
+    
+            <div class="row">
+            
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>This course is designed for those who have a basic understanding of programming concepts and are ready to take their skills to the next level. You'll dive deeper into more complex topics, focusing on practical applications and real-world scenarios. By the end of this course, you'll have a solid foundation in intermediate-level coding techniques and the confidence to tackle more advanced projects. Whether you're enhancing your knowledge of Node.js, C#, or web development, this course will equip you with the tools needed to excel.</p>
+
+                
+                </div>
+                 <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>This degree program offers an in-depth exploration of computer science and software engineering principles. Students will engage in rigorous coursework that covers everything from algorithm design to software development methodologies. Throughout the program, emphasis is placed on developing strong analytical and problem-solving skills, preparing graduates for a wide range of career opportunities in tech. The degree culminates in a capstone project, allowing students to apply their knowledge to real-world challenges.</p>
+
+                
+                </div>
+                 <div class="course-col">
+                    <h3>Post-Graduation</h3>
+                    <p>Our post-graduation program is tailored for individuals seeking to specialize further in their chosen field. The curriculum is research-oriented, encouraging students to explore advanced topics and contribute to the latest developments in technology. Through a combination of coursework and independent research, participants will hone their expertise, making them highly competitive in the job market or prepared for doctoral studies. This program is ideal for those aspiring to leadership roles or academic careers.</p>
+
+                
+                </div>
+            </div>
+    </section>
+    
+    <!--------------------Campus---------------------------->
+    
+    <section class="campus">
+        <h1>Our Global Towns</h1>
+        <p>Stay with us we will update more information about our services</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/city.jpeg">
+            <div class="layer">
+                <h3>Pretoria</h3>
+            </div>
+        </div>
+        
+        <div class="campus-col">
+            <img src="images/cp.jpeg">
+            <div class="layer">
+                <h3>Cape town</h3>
+            </div>
+        </div>
+        
+        <div class="campus-col">
+            <img src="images/jozi.jpeg">
+            <div class="layer">
+                <h3>Jozi</h3>
+            </div>
+        </div>
+        
+        </div>
+    </section>
+<!------------------tacilities------------------------->  
+     <section class="facilities">
+    
+         <h1>Our Facilities</h1>
+         <p>We will update soon about our facilities</p>
+         <div class="row">
+         
+             <div class="facilities-col">
+             
+                 <img src="images/library.jpeg">
+                 <h3>Top class library</h3>
+                 <p>You can get assistace during you studies</p>
+             </div>
+             
+              <div class="facilities-col">
+             
+                 <img src="images/field.jpg">
+                 <h3>Sport</h3>
+                 <p>play with unlimited field</p>
+             </div>
+             
+              <div class="facilities-col">
+             
+                 <img src="images/caftr.jpg">
+                 <h3>Top class cafeteria</h3>
+                 <p>Eat food and feel like your already in heaven</p>
+             </div>
+         </div>
+    
+    </section>
+    <section class="testimonials">
+    
+        <h1>What Our Student Says</h1>
+        <p>They said cool, everything goes well</p>
+        <div class="row">
+            <div class="testimonials-col">
+            <img src="images/user1.webp">
+                <div>
+                
+                    <p>Im happy that i came across with this amazing platform</p>
+                    <h3>Lorance Jay</h3>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                
+            </div>
+            
+             <div class="testimonials-col">
+            <img src="images/user2.webp">
+                <div>
+                
+                    <p>Hello, I'm Uri and i stared to ingaged on this program two years ago, everything is good so far</p>
+                    <h3>Uri Jackson</h3>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                
+            </div>
+        
+            
+        </div>
+    </section>
+    
+<!------------------Call to Action------------------------->      
+    <section class="cta">
+    
+        <h1>Enroll for our various online courses anywhere from the world</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+    
+    <section class="footer">
+    
+        <h4>About Us</h4>
+        <p>I will tell you more about us since the development of the website is still ongoing</p>
+    
+        <div class="icons">
+        
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            
+        </div>
+        <p>All <i class="fa-regular fa-solid fa-heart"></i> for you</p>
+    </section>
+    
+<!------------------menu(close/open)------------------------->  
+    <script>
+    
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+         function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+    </script>
+</body>
+</html>
